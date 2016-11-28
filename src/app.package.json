@@ -1,0 +1,23 @@
+{
+	"name": "castella",
+  "version": "0.0.1",
+  "description": "Awesome Twitter client.",
+  "author": {
+    "name": "sokcuri",
+    "email": "sokcuri@naver.com",
+    "url": "https://github.com/sokcuri"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sokcuri/castella.git"
+  },
+  "bugs": {
+    "url": "http://github.com/sokcuri/castella/issues"
+  },
+  "licenses": [{
+    "type": "MIT",
+    "url": "http://www.opensource.org/licenses/MIT" 
+  }],
+  "keywords": ["twitter", "sokcuri", "castella", "client", "sns", "tweet"],
+  "main": "main.js"
+}
