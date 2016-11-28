@@ -14,18 +14,27 @@
   "bugs": {
     "url": "http://github.com/sokcuri/castella/issues"
   },
-  "licenses": [{
-    "type": "MIT",
-    "url": "http://www.opensource.org/licenses/MIT" 
-  }],
-  "keywords": ["twitter", "sokcuri", "castella", "client", "sns", "tweet"],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "keywords": [
+    "twitter",
+    "sokcuri",
+    "castella",
+    "client",
+    "sns",
+    "tweet"
+  ],
   "main": "dist/main.js",
   "scripts": {
     "start": "electron dist/main.js"
   },
   "devDependencies": {
     "del": "^2.2.2",
-    "electron": "^1.4.6",
+    "electron": "^1.4.8",
     "gulp": "^3.9.1",
     "gulp-concat": "^2.6.1",
     "gulp-inject": "^4.1.0",
