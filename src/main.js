@@ -331,3 +331,11 @@ app.on('activate', function () {
   if (mainWindow === null)
     createWindow();
 });
+
+app.on('browser-window-focus', function (e, win) {
+  win.webContents.executeJavaScript(`document.body.classList.remove('deactivated');document.body.classList.add('activated');`);
+});
+
+app.on('browser-window-blur', function (e, win) {
+  win.webContents.executeJavaScript(`document.body.classList.remove('activated');document.body.classList.add('deactivated');`);
+});
